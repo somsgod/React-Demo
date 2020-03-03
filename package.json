@@ -4,7 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+	"build": "webpack --mode production"
   },
   "dependencies": {
     "@material-ui/core": "^4.5.1",
