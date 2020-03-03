@@ -2,7 +2,7 @@ import React from "react";
 import Button from '@material-ui/core/Button';
 
 const LightningButton = (props) => {
-	console.log();
+	
 	const  {
 		buttonClass,
 		buttonColor,
